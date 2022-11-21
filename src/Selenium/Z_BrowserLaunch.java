@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 
-public class BrowserLaunch {
+public class Z_BrowserLaunch {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
