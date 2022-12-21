@@ -17,22 +17,12 @@ public class Z_BrowserLaunch {
 
 	  //System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
 	  //WebDriver ch = new FirefoxDriver();
-	  ch.get("https://the-internet.herokuapp.com/dropdown");
+	  ch.get("https://ui.freecrm.com/contacts");
 	  ch.manage().window().maximize();
 	  
-	  
-	  //dropdown
-	  WebElement el = ch.findElement(By.id("dropdown"));
-	  Select sl = new Select(el);
-	  sl.selectByIndex(1);
-	  
-	  //Alerts
-	  
-	  
-	  
-	  ch.close();
-
-		
-		
+	  //ch.findElement(By.id("userName")).sendKeys("Testuser12345");
+	  //ch.findElement(By.id("password")).sendKeys("Testuser@12345");
+	  //ch.findElement(By.xpath("//div[@class='mt-2 buttonWrap row']/div/button[@id='login']")).click();
+	 	
 	}
 }
