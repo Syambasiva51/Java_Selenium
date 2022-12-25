@@ -48,12 +48,7 @@ public class M_ElementVisibiity {
 		//de-select the checkbox:
 		driver.findElement(By.name("agreeTerms")).click();
 		boolean b5 = driver.findElement(By.name("agreeTerms")).isSelected();
-		System.out.println(b5);//false
-		
-		
-		
-		
-		
+		System.out.println(b5);//false	
 	}
 
 }
